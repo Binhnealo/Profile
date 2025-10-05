@@ -1,0 +1,218 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- ==========================================
+                            Box Icons
+                =========================================== -->
+        <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+        />
+        <!-- ==========================================
+                            Custom CSS
+                =========================================== -->
+        <link rel="stylesheet" href="./asset/css/style.css" />
+        <!-- ==========================================
+                            Breakpoint
+                =========================================== -->
+        <link rel="stylesheet" href="./asset/css/breakpoint.css" />
+        <title>My Portfolio</title>
+    </head>
+    <body>
+        <!-- ==========================================
+                                Header
+                =========================================== -->
+        <header class="header">
+        <a href="#" class="logo">T<span>Binh</span></a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        </header>
+
+        <!-- ==========================================
+                            Home Section
+                =========================================== -->
+        <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Bình nè</h1>
+            <h3>Tôi là <span class="multiple-text"></span></h3>
+            <div class="social-media">
+            <a href="https://www.facebook.com/"
+                ><i class="bx bxl-facebook"></i
+            ></a>
+            <a href=""><i class="bx bxl-instagram-alt"></i></a>
+            <a href=""><i class="bx bxl-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="./asset/image/anh_cua_toi.jpg" alt="home" />
+        </div>
+        </section>
+
+        <!-- ==========================================
+                            About Section
+                =========================================== -->
+        <section class="about" id="about">
+        <div class="about-img">
+            <img src="./asset/image/anh_cua_toi_2.jpg" alt="about" />
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+            Tôi là một sinh viên năm 3 trường Đại học Giao Thông Vận Tải, Chuyên
+            Ngành Công Nghệ Thông tin. Tôi có thể sử dụng HTML, CSS, JS, để tạo ra
+            giao diện web, cùng với các frameWork khác như là Bootstrap,
+            tailwindcss, reactJS. Ngoài ra tôi cũng có thể sử dụng số công cụ
+            thiết kế đồ họa như Figma để thiết kế giao diện web.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+        </section>
+
+        <!-- ==========================================
+                            Services Section
+                =========================================== -->
+        <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Front End</h3>
+            <p>
+                Tôi là một Front End Developer. Sử dụng HTML, CSS, JS và các
+                framework như Bootstrap, TailwindCSS, ReactJS để tạo ra giao diện
+            </p>
+            <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+            <i class="bx bxs-paint"></i>
+            <h3>Graphic Design</h3>
+            <p>
+                Tôi là một Graphic Designer. Sử dụng Figma, Canva, Photoshop
+                để tạo ra các sản phẩm thiết kế đẹp mắt và ấn tượng.
+            </p>
+            <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+        </section>
+
+        <!-- ==========================================
+                            Portfolio Section
+                =========================================== -->
+        <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+            <img src="./asset/image/anh_project_1.png" alt="portfolio" />
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>
+                Đây là một dự án bán khóa học được chuyển từ figma sang html
+                css. nhưng vẫn đang trong quá trình hoàn thiệt.
+                </p>
+                <a href="https://binhnealo.github.io/figma-to-html/"
+                ><i class="bx bx-link-external"></i
+                ></a>
+            </div>
+            </div>
+
+            <div class="portfolio-box">
+            <img src="./asset/image/anh_project_2.png" alt="portfolio" />
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>
+                Đây là một dự án đặt lịch khám được chuyển từ figma sang html
+                css. nhưng vẫn đang trong quá trình hoàn thiệt.
+                </p>
+                <a href="https://binhnealo.github.io/Project-03/"
+                ><i class="bx bx-link-external"></i
+                ></a>
+            </div>
+            </div>
+
+            <div class="portfolio-box">
+            <img src="./asset/image/anh_project_3.png" alt="portfolio" />
+            <div class="portfolio-layer">
+                <h4>Web Design</h4>
+                <p>
+                đây là 1 dự án thương mại điện tử được sử dụng ReactJS, TailwindCSS để xây
+                dựng.
+                </p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- ==========================================
+                            Contact Section
+                =========================================== -->
+        <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email Address" />
+            </div>
+
+            <div class="input-box">
+            <input type="number" placeholder="Mobile Number" />
+            <input type="text" placeholder="Email Subject" />
+            </div>
+            <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+            ></textarea>
+            <input type="submit" value="Send Message" class="btn" />
+        </form>
+        </section>
+
+        <!-- ==========================================
+                                Footer
+                =========================================== -->
+        <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2025 by Binh.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+        </footer>
+
+        <!-- ==========================================
+                            Scroll Reveal
+                =========================================== -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!-- ==========================================
+                            Typed Js
+                =========================================== -->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+        <!-- ==========================================
+                            Custom Js
+                =========================================== -->
+        <script src="./asset/js/main.js"></script>
+    </body>
+    </html>
