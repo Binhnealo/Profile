@@ -219,7 +219,9 @@ span {
 /* ==========================================
               About
 =========================================== */
+
 .about {
+  padding-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,7 +229,9 @@ span {
   background: var(--second-bg-color);
 }
 .about-img img {
-  width: 34vw;
+    width: 34vw;
+    height: 40vw;
+    object-fit: cover;
 }
 .heading {
   text-align: center;
