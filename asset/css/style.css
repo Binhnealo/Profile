@@ -66,7 +66,7 @@ section {
   font-size: 2rem;
   color: var(--text-color);
   font-weight: 600;
-  cursor: default;
+  cursor: pointer;
 }
 
 /* ==========================================
@@ -413,10 +413,41 @@ span {
   font-size: 1.5rem;
   color: var(--second-bg-color);
 }
+/* ==========================================
+              achvievement
+=========================================== */
+.achievement{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.achievement .heading{
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 10rem;
+}
+.achievement-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--second-bg-color);
+  gap: 2rem;
+  margin-bottom: 5rem;
+  width: 50%;
+  border-radius: 1.5rem;
+}
+.achievement-container h3 {
+
+  padding: 2rem 4rem;
+}
+
 
 /* ==========================================
               Contact
 =========================================== */
+.contact {
+  background: var(--second-bg-color);
+}
 .contact h2 {
   margin-bottom: 5rem;
 }
@@ -439,7 +470,7 @@ span {
   padding: 0.9rem;
   font-size: 0.9rem;
   color: var(--text-color);
-  background: var(--second-bg-color);
+  background: var(--bg-color);
   border-radius: 0.5rem;
   -webkit-border-radius: 0.5rem;
   -moz-border-radius: 0.5rem;
@@ -469,7 +500,7 @@ span {
   align-items: center;
   flex-wrap: wrap;
   padding: 1rem 9%;
-  background: var(--second-bg-color);
+  background: var(--bg-color);
 }
 
 .footer-text p {
